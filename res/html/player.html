@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <link href="../css/player.css" rel="stylesheet"/>
+    <script src="../js/player.js"></script>
+</head>
+<body>
+<div id="content">
+    <canvas id="canvas"></canvas>
+    <div style="margin: auto; width: 500px; padding-top: 50px">
+        <div style="margin-left: 30px; margin-bottom: 5px">
+            <button onclick="play()">Play</button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="stop()">Stop</button>
+            <button onclick="restart()">Restart</button>
+            <input accept="audio/*" id="fileChooser" type="file"/>
+        </div>
+        <audio controls id="audio"></audio>
+    </div>
+</div>
+</body>
+</html>
